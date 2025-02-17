@@ -1,6 +1,6 @@
 services:
-  - type: static_site
-    name: maria-site
+  - name: maria-site
+    type: web
     env: static
-    buildCommand: "" 
+    buildCommand: ""
     staticPublishPath: /
